@@ -1,0 +1,8 @@
+TypeScript is a strongly typed programming language that builds on JavaScript.
+
+type IRes<T> = Promise<AxiosResponse<T>> :
+    1. type IRes - is used to define the shape of data.
+    2. Promise<...> - indicates that IRes<T> is a Promise type.
+    3. AxiosResponse<T> - represents an HTTP response, including data of type T
+
+Interfaces define the shape of data, they are only apply to object types.

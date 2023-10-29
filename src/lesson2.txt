@@ -1,6 +1,6 @@
 type - allow to create custom names for types or type expressions.
 
 Dispatch - represents a function that is used to dispatch actions, commonly associated with state management
-SetStateAction - represents the type of the argument that can be passed to a state setter function
+SetStateAction - represents a state updater function
 
 Location - represents the current location or URL

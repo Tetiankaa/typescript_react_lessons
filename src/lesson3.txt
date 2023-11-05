@@ -1,0 +1,3 @@
+PropsWithChildren -  is used for rendering child components.
+
+useParams<{id:string; name:string}>() - if there is one parameter there is no need to define the type, but if there are 2 and more params you can explicitly define its types

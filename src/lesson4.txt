@@ -1,0 +1,7 @@
+type RootState = ReturnType<typeof store.getState> - will represent the complete state of Redux store
+
+type AppDispatch = typeof store.dispatch - will be the type of the dispatch function that it's used to dispatch actions in application.
+
+TypedUseSelectorHook - allows to specify the type of the root state for application.
+
+const useAppDispatch = () => useDispatch<AppDispatch>() - returns the result of calling useDispatch

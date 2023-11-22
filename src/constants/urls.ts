@@ -5,7 +5,10 @@ const auth = '/auth';
 const users = '/users';
 
 const urls = {
-    cars,
+    cars:{
+        base:cars,
+        photo:(id:number):string=>`${cars}/${id}/photo`
+    },
     auth:{
         register:`${users}`,
         login:`${auth}`,

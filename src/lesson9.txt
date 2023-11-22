@@ -1,0 +1,7 @@
+Axios interceptors are functions that run before a request is sent or after a response is received.
+
+FormData is a built-in JavaScript object that provides a way to easily construct a set of key/value pairs representing form fields and their values.
+
+Blob stands for Binary Large Object and is a data type that represents raw binary data.
+
+URL.createObjectURL is a method that creates a DOMString containing a URL representing the object given as a parameter.

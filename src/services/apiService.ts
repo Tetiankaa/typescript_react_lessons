@@ -1,4 +1,4 @@
-import axios from "axios";
+import axios, {AxiosError} from "axios";
 
 import {baseURL} from "../constants";
 import {authService} from "./authService";
